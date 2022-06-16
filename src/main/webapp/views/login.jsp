@@ -27,7 +27,7 @@
 						</div>
 						<div class="form-group">
 							<label for="id-qtd">Senha</label>
-							<input class="form-control" type="text" name="senha" id="senha">
+							<input class="form-control" type="password" name="senha" id="senha">
 						</div>
 						<div class="col-md-12 text-center ">
 							<input class=" btn btn-block mybtn btn-primary tx-tfm" type="submit" value="Entrar">

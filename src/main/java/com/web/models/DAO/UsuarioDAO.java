@@ -18,7 +18,7 @@ public class UsuarioDAO {
 
         try {
             conexao = con.getConnection();
-            String sql = "SELECT * FROM usuarios WHERE ds_email = ? AND sh_usuario = ?";
+            String sql = "SELECT * FROM T_USUARIO WHERE ds_email = ? AND sh_usuario = ?";
             stmt = conexao.prepareStatement(sql);
             stmt.setString(1, email);
             stmt.setString(2, senha);

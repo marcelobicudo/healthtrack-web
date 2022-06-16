@@ -7,7 +7,7 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 
 public class Conexao {
-	private Connection conn;
+	private Connection conn = null;
 	
 	public Conexao() {
 		//Indicar qual driver vai ser usado

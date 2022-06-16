@@ -3,6 +3,7 @@
 html, body {
 	height: 100%;
 	margin: 0;
+	font-family: Poppins, sans-serif;
 }
 
 .wrapper {
@@ -17,8 +18,13 @@ html, body {
 	max-width: 350px;
 	height: 100%;
 	background-color: black;
+	color: #fff;	
+}
+
+
+
+.sidebar-nav li a {
 	color: #fff;
-	
 }
 
 .initials-icon {
@@ -29,16 +35,25 @@ html, body {
 	color: red;
 	display: inline-flex;
 	font-size: 16px;
-	font-family: Poppins, sans-serif;
 	font-weight: bold;
 	vertical-align: middle;
 	align-items: center;
 	justify-content: center;
-	margin: 29px 10px;
+	margin: 17px 10px 15px 29px;
 }
 
 hr.solid {
   	border-top: 2px solid #fff;
   	margin-right: 25px;
   	margin-left: 25px;
+}
+
+.page-content {
+	margin-top: 34px;
+	margin-left: 43px;
+	font-weight: bold;
+}
+
+.data-container {
+	background-color: 
 }

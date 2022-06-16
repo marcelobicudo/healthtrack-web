@@ -26,10 +26,9 @@
                 <li> <a href="#">Sair</a> </li>
             </ul>
 		</div> 
-		<div id="page-content">
-			<div class="container-fluid">
-                <h1>Tela inicial</h1>
-                <p>teste</p>
+		<div class="page-content">
+            <h1>Dados Gerais</h1>
+            <div class="data-container">
             </div>
         </div>
 	</div>

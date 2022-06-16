@@ -1,14 +1,44 @@
 @charset "UTF-8";
 
+html, body {
+	height: 100%;
+	margin: 0;
+}
+
 .wrapper {
 	display: flex;
 	flex-direction: row;
 	transition: all 0.3s;
+	height: 100%
 }
 
 .sidebar {
 	min-width: 350px;
 	max-width: 350px;
+	height: 100%;
 	background-color: black;
 	color: #fff;
+	
+}
+
+.initials-icon {
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	background-color: #fff;
+	color: red;
+	display: inline-flex;
+	font-size: 16px;
+	font-family: Poppins, sans-serif;
+	font-weight: bold;
+	vertical-align: middle;
+	align-items: center;
+	justify-content: center;
+	margin: 29px 10px;
+}
+
+hr.solid {
+  	border-top: 2px solid #fff;
+  	margin-right: 25px;
+  	margin-left: 25px;
 }

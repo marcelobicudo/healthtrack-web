@@ -24,12 +24,12 @@ public class LoginServlet extends HttpServlet {
 	}
 
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		String email = request.getParameter("email");
+		String email = request.getParameter("usuario");
 		String pass = request.getParameter("senha");
 		
 		UsuarioService uService = new UsuarioService();
 		if (uService.Login(email, pass)) {
-			request.getRequestDispatcher("views/home.jsp").forward(request, response);
+			response.sendRedirect(request.getRequestURI().replace("login", "home"));
 		} else {
 			request.getRequestDispatcher("views/login.jsp").forward(request, response);
 		}

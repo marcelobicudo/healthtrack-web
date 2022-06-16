@@ -10,6 +10,7 @@ public class UsuarioService {
 		
 		Usuario usuario = usuarioDAO.getUsuario(email, senha);
 		return usuario.getNm_usuario() != null;
+		
 	}
 
 }

@@ -55,8 +55,23 @@ hr.solid {
 .data-container {
   background-color: #d9d9d9;
   width: 100%;
-  border-radius: 20px;
+  border-radius: 5px;
   padding: 1.5rem;
   display: flex;
+  margin-bottom: 2rem;
   justify-content: space-between;
+}
+
+#btn-edit {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+#btn-edit,
+i {
+  margin-right: 10px;
+}
+
+#btn-table {
 }

@@ -33,6 +33,7 @@ pageEncoding="UTF-8"%>
           <li><a href="#">Sair</a></li>
         </ul>
       </div>
+
       <div class="page-content">
         <h2>Dados Gerais</h2>
         <div class="data-container">
@@ -66,9 +67,11 @@ pageEncoding="UTF-8"%>
               type="button"
               class="btn btn-primary me-md-2"
               data-bs-toggle="modal"
+              id="btn-edit"
               data-bs-target="#usuarioModal"
               type="button"
             >
+              <i class="fa fa-edit"></i>
               Editar
             </button>
             <!-- Modal Usuario -->
@@ -161,6 +164,39 @@ pageEncoding="UTF-8"%>
               </div>
             </div>
           </div>
+        </div>
+      </div>
+
+      <div class="container-tables">
+        <div>
+          <table class="table">
+            <thead class="table-dark">
+              <tr>
+                <th scope="col">Ações</th>
+                <th scope="col">Data</th>
+                <th scope="col">Alimento</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">
+                  <button class="btn" id="btn-table-trash">
+                    <i class="fa fa-trash"></i>
+                  </button>
+                  <button class="btn" id="btn-table-edit">
+                    <i class="fa fa-edit"></i>
+                  </button>
+                </th>
+                <td>Mark</td>
+                <td>Otto</td>
+              </tr>
+              <tr>
+                <th scope="row">2</th>
+                <td>Jacob</td>
+                <td>Thornton</td>
+              </tr>
+            </tbody>
+          </table>
         </div>
       </div>
     </div>

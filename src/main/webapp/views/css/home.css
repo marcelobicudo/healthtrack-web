@@ -1,59 +1,62 @@
 @charset "UTF-8";
 
-html, body {
-	height: 100%;
-	margin: 0;
-	font-family: Poppins, sans-serif;
+html,
+body {
+  height: 100%;
+  margin: 0;
+  font-family: Poppins, sans-serif;
 }
 
 .wrapper {
-	display: flex;
-	flex-direction: row;
-	transition: all 0.3s;
-	height: 100%
+  display: flex;
+  flex-direction: row;
+  transition: all 0.3s;
+  height: 100%;
 }
 
 .sidebar {
-	min-width: 350px;
-	max-width: 350px;
-	height: 100%;
-	background-color: black;
-	color: #fff;	
+  min-width: 350px;
+  max-width: 350px;
+  height: 100%;
+  background-color: black;
+  color: #fff;
 }
 
-
-
 .sidebar-nav li a {
-	color: #fff;
+  color: #fff;
 }
 
 .initials-icon {
-	width: 60px;
-	height: 60px;
-	border-radius: 50%;
-	background-color: #fff;
-	color: red;
-	display: inline-flex;
-	font-size: 16px;
-	font-weight: bold;
-	vertical-align: middle;
-	align-items: center;
-	justify-content: center;
-	margin: 17px 10px 15px 29px;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: #fff;
+  color: red;
+  display: inline-flex;
+  font-size: 16px;
+  font-weight: bold;
+  vertical-align: middle;
+  align-items: center;
+  justify-content: center;
+  margin: 17px 10px 15px 29px;
 }
 
 hr.solid {
-  	border-top: 2px solid #fff;
-  	margin-right: 25px;
-  	margin-left: 25px;
+  border-top: 2px solid #fff;
+  margin-right: 25px;
+  margin-left: 25px;
 }
 
 .page-content {
-	margin-top: 34px;
-	margin-left: 43px;
-	font-weight: bold;
+  margin: 25px;
+  width: 100%;
 }
 
 .data-container {
-	background-color: #d9d9d9;
+  background-color: #d9d9d9;
+  width: 100%;
+  border-radius: 20px;
+  padding: 1.5rem;
+  display: flex;
+  justify-content: space-between;
 }
